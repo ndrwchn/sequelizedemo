@@ -31,8 +31,10 @@
     "morgan": "^1.9.0",
     "nodemon": "^1.18.3",
     "rxjs": "^6.3.3",
-    "tslib": "^1.9.0",
+    "sequelize": "^5.2.1",
     "serve-favicon": "^2.5.0",
+    "tedious": "^6.1.0",
+    "tslib": "^1.9.0",
     "zone.js": "~0.8.26"
   },
   "devDependencies": {
