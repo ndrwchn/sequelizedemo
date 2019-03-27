@@ -1,3 +1,7 @@
+## note
+
+* support latest ng
+
 ## Starter Code
 
 * Includes: Express server + routing
