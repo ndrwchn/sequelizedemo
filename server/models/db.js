@@ -17,6 +17,7 @@ const sequelize = new Sequelize('slscmm', 'sydneyplus', 'sydv3',{
   dialect: 'mssql'
 })
 
+
 fs
   .readdirSync(__dirname)
   .filter(file => {
