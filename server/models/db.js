@@ -12,10 +12,9 @@ var db        = {};
 //   var sequelize = new Sequelize(config.database, config.username, config.password, config);
 // }
 
-const sequelize = new Sequelize('', '', '',{
-    host: '',
-    dialect: '',
-    operatorsAliases: false
+const sequelize = new Sequelize('slscmm', 'sydneyplus', 'sydv3',{
+  host: 'tocgsls1iv',
+  dialect: 'mssql'
 })
 
 fs
