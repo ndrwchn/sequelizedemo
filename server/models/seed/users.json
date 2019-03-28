@@ -1,4 +1,33 @@
 [
+{
+    "email" : "user1@test.com",
+    "first" : "User1",
+    "last" : "Test",
+    "password" : "user111",
+	"isActive" : true,
+	"name" : "User1"
+},
+
+{
+    "isActive" : true,
+    "email" : "user3@test.com",
+    "first" : "User3",
+    "last" : "Test3",
+	"password" : "use333",
+	"name" : "User3"
+},
+
+{
+    "isActive" : true,
+    "email" : "user2@test.com",
+    "first" : "User2",
+    "last" : "Test",
+	"password" : "use222",
+	"name" : "User2"
+}
+
+,
+
 	{
 		"name": "Ashton"
 	},

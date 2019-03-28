@@ -1,4 +1,4 @@
-'usr strict'
+'use strict'
 
 module.exports = (sequelize, DataTypes) =>{
     const User = sequelize.define('User', {
@@ -8,7 +8,12 @@ module.exports = (sequelize, DataTypes) =>{
             validate: {
                 notEmpty: true,
             }
-        }
+        },
+        first: DataTypes.STRING,
+        last: DataTypes.STRING,
+        email: DataTypes.STRING,
+        password: DataTypes.STRING,
+        isActive: DataTypes.BOOLEAN
     })
     
     User.associate = (models) =>{
